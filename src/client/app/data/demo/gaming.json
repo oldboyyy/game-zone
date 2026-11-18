@@ -1,0 +1,968 @@
+{
+  "categories": [
+    {
+      "id": "gamezone-cat-ps5",
+      "slug": "ps5",
+      "name": "Диски PlayStation 5",
+      "description": "Диски PlayStation 5"
+    },
+    {
+      "id": "gamezone-cat-ps4",
+      "slug": "ps4",
+      "name": "Диски PlayStation 4",
+      "description": "Диски PlayStation 4"
+    },
+    {
+      "id": "gamezone-cat-xbox",
+      "slug": "xbox",
+      "name": "Диски Xbox Series X|S",
+      "description": "Диски Xbox Series X|S"
+    },
+    {
+      "id": "gamezone-cat-switch",
+      "slug": "switch",
+      "name": "Диски Nintendo Switch",
+      "description": "Диски Nintendo Switch"
+    },
+    {
+      "id": "gamezone-cat-pc",
+      "slug": "pc",
+      "name": "Диски PC",
+      "description": "Диски PC"
+    },
+    {
+      "id": "gamezone-cat-keyboards",
+      "slug": "keyboards",
+      "name": "Клавиатуры",
+      "description": "Клавиатуры"
+    },
+    {
+      "id": "gamezone-cat-mice",
+      "slug": "mice",
+      "name": "Мыши",
+      "description": "Мыши"
+    },
+    {
+      "id": "gamezone-cat-mats",
+      "slug": "mats",
+      "name": "Коврики для мыши",
+      "description": "Коврики для мыши"
+    },
+    {
+      "id": "gamezone-cat-headsets",
+      "slug": "headsets",
+      "name": "Наушники и гарнитуры",
+      "description": "Наушники и гарнитуры"
+    },
+    {
+      "id": "gamezone-cat-microphones",
+      "slug": "microphones",
+      "name": "Микрофоны",
+      "description": "Микрофоны"
+    },
+    {
+      "id": "gamezone-cat-monitors",
+      "slug": "monitors",
+      "name": "Мониторы",
+      "description": "Мониторы"
+    },
+    {
+      "id": "gamezone-cat-controllers",
+      "slug": "controllers",
+      "name": "Геймпады и контроллеры",
+      "description": "Геймпады и контроллеры"
+    },
+    {
+      "id": "gamezone-cat-chairs",
+      "slug": "chairs",
+      "name": "Игровые кресла",
+      "description": "Игровые кресла"
+    },
+    {
+      "id": "gamezone-cat-desks",
+      "slug": "desks",
+      "name": "Игровые столы",
+      "description": "Игровые столы"
+    },
+    {
+      "id": "gamezone-cat-consoles",
+      "slug": "consoles",
+      "name": "Игровые консоли",
+      "description": "Игровые консоли"
+    },
+    {
+      "id": "gamezone-cat-accessories",
+      "slug": "accessories",
+      "name": "Аксессуары для консолей",
+      "description": "Аксессуары для консолей"
+    },
+    {
+      "id": "gamezone-cat-webcams",
+      "slug": "webcams",
+      "name": "Веб-камеры",
+      "description": "Веб-камеры"
+    },
+    {
+      "id": "gamezone-cat-cards",
+      "slug": "cards",
+      "name": "Подарочные карты и подписки",
+      "description": "Подарочные карты и подписки"
+    }
+  ],
+  "products": [
+    {
+      "slug": "gamezone-ps5-1",
+      "category": "ps5",
+      "name": "Диски PlayStation 5: Звёздный путь",
+      "description": "Диски PlayStation 5 для увлекательной игры дома. Полностью на русском языке.",
+      "price": 29000,
+      "stock": 12,
+      "attributes": {
+        "platform": "PlayStation 5",
+        "genre": "Приключения",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-ps5-2",
+      "category": "ps5",
+      "name": "Диски PlayStation 5: Город скорости",
+      "description": "Диски PlayStation 5 для увлекательной игры дома. Полностью на русском языке.",
+      "price": 31500,
+      "stock": 18,
+      "attributes": {
+        "platform": "PlayStation 5",
+        "genre": "Гонки",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-ps5-3",
+      "category": "ps5",
+      "name": "Диски PlayStation 5: Остров легенд",
+      "description": "Диски PlayStation 5 для увлекательной игры дома. Полностью на русском языке.",
+      "price": 34000,
+      "stock": 24,
+      "attributes": {
+        "platform": "PlayStation 5",
+        "genre": "Стратегия",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-ps4-1",
+      "category": "ps4",
+      "name": "Диски PlayStation 4: Звёздный путь",
+      "description": "Диски PlayStation 4 для увлекательной игры дома. Полностью на русском языке.",
+      "price": 19000,
+      "stock": 12,
+      "attributes": {
+        "platform": "PlayStation 4",
+        "genre": "Приключения",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-ps4-2",
+      "category": "ps4",
+      "name": "Диски PlayStation 4: Город скорости",
+      "description": "Диски PlayStation 4 для увлекательной игры дома. Полностью на русском языке.",
+      "price": 21500,
+      "stock": 18,
+      "attributes": {
+        "platform": "PlayStation 4",
+        "genre": "Гонки",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-ps4-3",
+      "category": "ps4",
+      "name": "Диски PlayStation 4: Остров легенд",
+      "description": "Диски PlayStation 4 для увлекательной игры дома. Полностью на русском языке.",
+      "price": 24000,
+      "stock": 24,
+      "attributes": {
+        "platform": "PlayStation 4",
+        "genre": "Стратегия",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-xbox-1",
+      "category": "xbox",
+      "name": "Диски Xbox Series X|S: Звёздный путь",
+      "description": "Диски Xbox Series X|S для увлекательной игры дома. Полностью на русском языке.",
+      "price": 29000,
+      "stock": 12,
+      "attributes": {
+        "platform": "Xbox Series X|S",
+        "genre": "Приключения",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-xbox-2",
+      "category": "xbox",
+      "name": "Диски Xbox Series X|S: Город скорости",
+      "description": "Диски Xbox Series X|S для увлекательной игры дома. Полностью на русском языке.",
+      "price": 31500,
+      "stock": 18,
+      "attributes": {
+        "platform": "Xbox Series X|S",
+        "genre": "Гонки",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-xbox-3",
+      "category": "xbox",
+      "name": "Диски Xbox Series X|S: Остров легенд",
+      "description": "Диски Xbox Series X|S для увлекательной игры дома. Полностью на русском языке.",
+      "price": 34000,
+      "stock": 24,
+      "attributes": {
+        "platform": "Xbox Series X|S",
+        "genre": "Стратегия",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-switch-1",
+      "category": "switch",
+      "name": "Диски Nintendo Switch: Звёздный путь",
+      "description": "Диски Nintendo Switch для увлекательной игры дома. Полностью на русском языке.",
+      "price": 26000,
+      "stock": 12,
+      "attributes": {
+        "platform": "Nintendo Switch",
+        "genre": "Приключения",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-switch-2",
+      "category": "switch",
+      "name": "Диски Nintendo Switch: Город скорости",
+      "description": "Диски Nintendo Switch для увлекательной игры дома. Полностью на русском языке.",
+      "price": 28500,
+      "stock": 0,
+      "attributes": {
+        "platform": "Nintendo Switch",
+        "genre": "Гонки",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-switch-3",
+      "category": "switch",
+      "name": "Диски Nintendo Switch: Остров легенд",
+      "description": "Диски Nintendo Switch для увлекательной игры дома. Полностью на русском языке.",
+      "price": 31000,
+      "stock": 24,
+      "attributes": {
+        "platform": "Nintendo Switch",
+        "genre": "Стратегия",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-pc-1",
+      "category": "pc",
+      "name": "Диски PC: Звёздный путь",
+      "description": "Диски PC для увлекательной игры дома. Полностью на русском языке.",
+      "price": 12000,
+      "stock": 12,
+      "attributes": {
+        "platform": "PC",
+        "genre": "Приключения",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-pc-2",
+      "category": "pc",
+      "name": "Диски PC: Город скорости",
+      "description": "Диски PC для увлекательной игры дома. Полностью на русском языке.",
+      "price": 14500,
+      "stock": 18,
+      "attributes": {
+        "platform": "PC",
+        "genre": "Гонки",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-pc-3",
+      "category": "pc",
+      "name": "Диски PC: Остров легенд",
+      "description": "Диски PC для увлекательной игры дома. Полностью на русском языке.",
+      "price": 17000,
+      "stock": 24,
+      "attributes": {
+        "platform": "PC",
+        "genre": "Стратегия",
+        "rating": "PEGI 12",
+        "language": "Русский интерфейс, озвучка и субтитры",
+        "edition": "Стандартное",
+        "release": "2026-09-01"
+      }
+    },
+    {
+      "slug": "gamezone-keyboards-1",
+      "category": "keyboards",
+      "name": "Клавиатуры: Орбита 1",
+      "description": "Клавиатуры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 24000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-keyboards-2",
+      "category": "keyboards",
+      "name": "Клавиатуры: Орбита 2",
+      "description": "Клавиатуры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 26500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-keyboards-3",
+      "category": "keyboards",
+      "name": "Клавиатуры: Орбита 3",
+      "description": "Клавиатуры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 29000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-mice-1",
+      "category": "mice",
+      "name": "Мыши: Орбита 1",
+      "description": "Мыши для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 14000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-mice-2",
+      "category": "mice",
+      "name": "Мыши: Орбита 2",
+      "description": "Мыши для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 16500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-mice-3",
+      "category": "mice",
+      "name": "Мыши: Орбита 3",
+      "description": "Мыши для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 19000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-mats-1",
+      "category": "mats",
+      "name": "Коврики для мыши: Орбита 1",
+      "description": "Коврики для мыши для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 4500,
+      "stock": 0,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-mats-2",
+      "category": "mats",
+      "name": "Коврики для мыши: Орбита 2",
+      "description": "Коврики для мыши для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 7000,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-mats-3",
+      "category": "mats",
+      "name": "Коврики для мыши: Орбита 3",
+      "description": "Коврики для мыши для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 9500,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-headsets-1",
+      "category": "headsets",
+      "name": "Наушники и гарнитуры: Орбита 1",
+      "description": "Наушники и гарнитуры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 26000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-headsets-2",
+      "category": "headsets",
+      "name": "Наушники и гарнитуры: Орбита 2",
+      "description": "Наушники и гарнитуры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 28500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-headsets-3",
+      "category": "headsets",
+      "name": "Наушники и гарнитуры: Орбита 3",
+      "description": "Наушники и гарнитуры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 31000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-microphones-1",
+      "category": "microphones",
+      "name": "Микрофоны: Орбита 1",
+      "description": "Микрофоны для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 32000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-microphones-2",
+      "category": "microphones",
+      "name": "Микрофоны: Орбита 2",
+      "description": "Микрофоны для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 34500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-microphones-3",
+      "category": "microphones",
+      "name": "Микрофоны: Орбита 3",
+      "description": "Микрофоны для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 37000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-monitors-1",
+      "category": "monitors",
+      "name": "Мониторы: Орбита 1",
+      "description": "Мониторы для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 120000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC",
+        "diagonal": "27 дюймов",
+        "resolution": "2560 × 1440",
+        "refresh": "144 Гц",
+        "panel": "IPS"
+      }
+    },
+    {
+      "slug": "gamezone-monitors-2",
+      "category": "monitors",
+      "name": "Мониторы: Орбита 2",
+      "description": "Мониторы для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 122500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC",
+        "diagonal": "27 дюймов",
+        "resolution": "2560 × 1440",
+        "refresh": "240 Гц",
+        "panel": "IPS"
+      }
+    },
+    {
+      "slug": "gamezone-monitors-3",
+      "category": "monitors",
+      "name": "Мониторы: Орбита 3",
+      "description": "Мониторы для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 125000,
+      "stock": 0,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC",
+        "diagonal": "27 дюймов",
+        "resolution": "2560 × 1440",
+        "refresh": "165 Гц",
+        "panel": "IPS"
+      }
+    },
+    {
+      "slug": "gamezone-controllers-1",
+      "category": "controllers",
+      "name": "Геймпады и контроллеры: Орбита 1",
+      "description": "Геймпады и контроллеры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 28000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-controllers-2",
+      "category": "controllers",
+      "name": "Геймпады и контроллеры: Орбита 2",
+      "description": "Геймпады и контроллеры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 30500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-controllers-3",
+      "category": "controllers",
+      "name": "Геймпады и контроллеры: Орбита 3",
+      "description": "Геймпады и контроллеры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 33000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-chairs-1",
+      "category": "chairs",
+      "name": "Игровые кресла: Орбита 1",
+      "description": "Игровые кресла для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 85000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-chairs-2",
+      "category": "chairs",
+      "name": "Игровые кресла: Орбита 2",
+      "description": "Игровые кресла для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 87500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-chairs-3",
+      "category": "chairs",
+      "name": "Игровые кресла: Орбита 3",
+      "description": "Игровые кресла для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 90000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-desks-1",
+      "category": "desks",
+      "name": "Игровые столы: Орбита 1",
+      "description": "Игровые столы для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 95000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-desks-2",
+      "category": "desks",
+      "name": "Игровые столы: Орбита 2",
+      "description": "Игровые столы для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 97500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-desks-3",
+      "category": "desks",
+      "name": "Игровые столы: Орбита 3",
+      "description": "Игровые столы для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 100000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-consoles-1",
+      "category": "consoles",
+      "name": "Игровые консоли: Орбита 1",
+      "description": "Игровые консоли для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 240000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-consoles-2",
+      "category": "consoles",
+      "name": "Игровые консоли: Орбита 2",
+      "description": "Игровые консоли для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 242500,
+      "stock": 0,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-consoles-3",
+      "category": "consoles",
+      "name": "Игровые консоли: Орбита 3",
+      "description": "Игровые консоли для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 245000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-accessories-1",
+      "category": "accessories",
+      "name": "Аксессуары для консолей: Орбита 1",
+      "description": "Аксессуары для консолей для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 9000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-accessories-2",
+      "category": "accessories",
+      "name": "Аксессуары для консолей: Орбита 2",
+      "description": "Аксессуары для консолей для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 11500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-accessories-3",
+      "category": "accessories",
+      "name": "Аксессуары для консолей: Орбита 3",
+      "description": "Аксессуары для консолей для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 14000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-webcams-1",
+      "category": "webcams",
+      "name": "Веб-камеры: Орбита 1",
+      "description": "Веб-камеры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 22000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-webcams-2",
+      "category": "webcams",
+      "name": "Веб-камеры: Орбита 2",
+      "description": "Веб-камеры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 24500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-webcams-3",
+      "category": "webcams",
+      "name": "Веб-камеры: Орбита 3",
+      "description": "Веб-камеры для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 27000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-cards-1",
+      "category": "cards",
+      "name": "Подарочные карты и подписки: Орбита 1",
+      "description": "Подарочные карты и подписки для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 10000,
+      "stock": 12,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Проводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-cards-2",
+      "category": "cards",
+      "name": "Подарочные карты и подписки: Орбита 2",
+      "description": "Подарочные карты и подписки для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 12500,
+      "stock": 18,
+      "attributes": {
+        "brand": "Орбита",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Беспроводное",
+        "compatibility": "PC"
+      }
+    },
+    {
+      "slug": "gamezone-cards-3",
+      "category": "cards",
+      "name": "Подарочные карты и подписки: Орбита 3",
+      "description": "Подарочные карты и подписки для увлекательной игры дома. Удобство и надёжность для ежедневных игровых сессий.",
+      "price": 15000,
+      "stock": 24,
+      "attributes": {
+        "brand": "Пульсар",
+        "color": "Чёрный",
+        "warranty": "12 месяцев",
+        "connection": "Bluetooth",
+        "compatibility": "PC"
+      }
+    }
+  ],
+  "attributes": {
+    "platform": "Платформа",
+    "genre": "Жанр",
+    "rating": "Возрастной рейтинг",
+    "language": "Язык",
+    "edition": "Издание",
+    "release": "Дата выхода",
+    "brand": "Бренд",
+    "color": "Цвет",
+    "warranty": "Гарантия",
+    "connection": "Тип подключения",
+    "compatibility": "Совместимость",
+    "diagonal": "Диагональ",
+    "resolution": "Разрешение",
+    "refresh": "Частота обновления",
+    "panel": "Тип матрицы"
+  }
+}

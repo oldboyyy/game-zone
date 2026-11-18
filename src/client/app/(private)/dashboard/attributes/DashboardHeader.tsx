@@ -1,0 +1,26 @@
+"use client";
+
+import React from "react";
+import { Database } from "lucide-react";
+
+const DashboardHeader: React.FC = () => {
+  return (
+    <div className="mb-8">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center space-x-3">
+          <div className="p-2 bg-primary rounded-lg">
+            <Database size={20} className="text-white" />
+          </div>
+          <h1 className="text-2xl font-bold text-gray-900">
+            Характеристики товаров
+          </h1>
+        </div>
+      </div>
+      <p className="mt-2 text-gray-600 max-w-2xl">
+        Создавайте характеристики, назначайте их категориям и товарам и настраивайте структуру каталога.
+      </p>
+    </div>
+  );
+};
+
+export default DashboardHeader;

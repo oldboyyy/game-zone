@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "GameZone local",
+      "Group": "GameZone",
+      "Host": "localhost",
+      "Port": 5432,
+      "MaintenanceDB": "gamezone_dev",
+      "Username": "adi",
+      "SSLMode": "prefer"
+    }
+  }
+}
