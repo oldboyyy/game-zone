@@ -11,7 +11,7 @@ let copied = 0;
 for (const name of files) {
   const parts = name.split('/');
   const base = parts.at(-1);
-  if (parts.some(p => ['.git', '.vscode', '.agents', '.codex', '.aws', '.playwright-mcp', 'node_modules', '.next', '.next-dev', 'dist'].includes(p))) continue;
+  if (parts.some(p => ['.git', '.vscode', '.idea', '.agents', '.codex', '.aws', '.playwright-mcp', 'node_modules', '.next', '.next-dev', 'dist'].includes(p))) continue;
   if ((base.startsWith('.env') && !base.endsWith('.example')) || /\.(log|dump|pem|key|tsbuildinfo)$/.test(base) || base === '.DS_Store') continue;
   const source = path.join(root, name);
   if (!fs.existsSync(source) || !fs.lstatSync(source).isFile()) continue;

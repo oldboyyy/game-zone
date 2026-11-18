@@ -13,7 +13,7 @@
     "seed": "ts-node seeds/seed.ts",
     "test": "node --test tests/*.test.cjs",
     "check:production": "node scripts/check-production.cjs",
-    "start:deploy": "npm run check:production && prisma migrate deploy && node dist/server.js"
+    "start:deploy": "node scripts/start-deploy.cjs"
   },
   "keywords": [],
   "author": "",

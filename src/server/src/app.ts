@@ -1,4 +1,5 @@
 import express from "express";
+import path from "path";
 import dotenv from "dotenv";
 import "./infra/cloudinary/config";
 import bodyParser from "body-parser";
@@ -122,6 +123,24 @@ export const createApp = async () => {
 
   // GraphQL setup
   await configureGraphQL(app);
+
+  if (process.env.SERVE_FRONTEND === "true") {
+    const clientDir = path.resolve(__dirname, "../../client");
+    // Resolve the existing client installation; the API alone does not need Next.js.
+    const next = require(path.join(clientDir, "node_modules/next"));
+    const frontend = next({ dev: false, dir: clientDir });
+    await frontend.prepare();
+    const handle = frontend.getRequestHandler();
+    app.use((req, res, nextMiddleware) => {
+      if (req.path.startsWith("/api/")) {
+        res.status(404).json({ message: "API route not found" });
+        return;
+      }
+      // Next.js includes inline hydration scripts; Helmet's API CSP disallows them.
+      res.removeHeader("Content-Security-Policy");
+      handle(req, res).catch(nextMiddleware);
+    });
+  }
 
   // Error & Logging
   app.use(globalError);

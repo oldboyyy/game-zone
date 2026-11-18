@@ -1,11 +1,11 @@
 # Бесплатный сервер GameZone: Render + Neon
 
 Цель: https://github.com/oldboyyy/game-zone (публичный репозиторий, при проверке пуст).
-Локальный remote `game-zone` указывает на него; `origin` оставлен исходным. Код пока не опубликован.
+Локальный remote `game-zone` указывает на него; `origin` оставлен исходным. Чистый снимок опубликован в main; GitHub CI первого коммита a0bf6e3 прошёл.
 
 ## Что подготовлено
 
-`render.yaml` создаёт Node.js API и Key Value на **free** в Frankfurt. PostgreSQL подключается отдельно из Neon Free. Автоматическое развёртывание выключено. API поддерживает существующий Socket.IO; архитектуру менять не нужно.
+`render.yaml` создаёт единый Node.js сервер сайта (Next.js), API (Express/Socket.IO) и Key Value на **free** в Frankfurt. PostgreSQL подключается отдельно из Neon Free. Автоматическое развёртывание выключено. Режим SERVE_FRONTEND=true подключает production-сборку Next.js к Express. Сайт, /api/v1 и Socket.IO работают на одном публичном адресе. Локальный режим с двумя процессами сохранён.
 
 Тарифы проверены 19 ноября 2026:
 - Render Free: 750 часов на workspace в месяц, сервер засыпает после простоя; пробуждение занимает время. Бесплатный Key Value хранится в памяти и теряет сессии/кэш после перезапуска.
@@ -21,11 +21,10 @@
 3. В Render создать Blueprint из этого репозитория и `render.yaml`. Проверить, что оба сервиса имеют план **Free** и итог $0. Не включать платные опции.
 4. Ввести только следующие значения; остальные секреты Blueprint генерирует сам:
    - `DATABASE_URL`: приватная строка подключения Neon;
-   - `CLIENT_URL_PROD`: адрес сайта. Для начала можно `http://localhost:3000`, когда клиент работает локально;
-   - `ALLOWED_ORIGINS`: адреса разрешённых клиентов через запятую, без завершающего `/`, например `http://localhost:3000`.
-5. Команда `start:deploy` проверит конфигурацию, выполнит `prisma migrate deploy`, затем запустит скомпилированный API. Seed автоматически не выполняется и данные не стираются.
+   Адрес сайта и разрешённый origin автоматически берутся из RENDER_EXTERNAL_URL. CLIENT_URL_PROD и ALLOWED_ORIGINS можно явно переопределить при подключении собственного домена.
+5. Build собирает обе части; NEXT_PUBLIC_API_URL_PROD=/api/v1 и NEXT_PUBLIC_SOCKET_URL=/ направляют браузер к тому же домену. Команда `start:deploy` проверит конфигурацию, выполнит `prisma migrate deploy`, затем запустит скомпилированный API. Seed автоматически не выполняется и данные не стираются.
 6. Проверить `https://<назначенный-домен>.onrender.com/health/detailed`: database и redis должны быть connected. Точный домен назначает Render; не считать имя сервиса гарантией домена.
-7. Для локального клиента задать `NEXT_PUBLIC_DEMO_MODE=false`, `NEXT_PUBLIC_USE_DEMO_CATALOG=false`, `NEXT_PUBLIC_API_URL_DEV=https://<домен>/api/v1`, `NEXT_PUBLIC_SOCKET_URL=https://<домен>` и перезапустить Next.js. Для размещённого клиента использовать `NEXT_PUBLIC_API_URL_PROD` при сборке.
+7. Открыть корневой публичный URL: это сам магазин. Отдельный frontend-хостинг не нужен. Для дополнительного локального клиента добавить localhost в ALLOWED_ORIGINS и задать `NEXT_PUBLIC_DEMO_MODE=false`, `NEXT_PUBLIC_USE_DEMO_CATALOG=false`, `NEXT_PUBLIC_API_URL_DEV=https://<домен>/api/v1`, `NEXT_PUBLIC_SOCKET_URL=https://<домен>` и перезапустить Next.js. Для размещённого клиента использовать `NEXT_PUBLIC_API_URL_PROD` при сборке.
 
 ## Наполнение и pgAdmin
 
